@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="6" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[Login In successful]]>
+    </line>
+    <line>
+      <![CDATA[Login Popup for Stacks >Sign in now.]]>
+    </line>
+    <line>
+      <![CDATA[Login In successful]]>
+    </line>
+    <line>
+      <![CDATA[Login In successful]]>
+    </line>
+    <line>
+      <![CDATA[Registration Screen is present]]>
+    </line>
+    <line>
+      <![CDATA[Login In successful]]>
+    </line>
+    <line>
+      <![CDATA[Parent Page is dispalyed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="251939" started-at="2016-01-15T15:53:27Z" finished-at="2016-01-15T15:57:39Z">
+    <groups>
+    </groups>
+    <test name="BookwizardLoginTest" duration-ms="31376" started-at="2016-01-15T15:53:27Z" finished-at="2016-01-15T15:53:58Z">
+      <class name="com.userprofile.scholastic.test.BookwizardLoginTest">
+        <test-method status="PASS" signature="checkRunmode()[pri:0, instance:com.userprofile.scholastic.test.BookwizardLoginTest@7a5d012c]" name="checkRunmode" is-config="true" duration-ms="686" started-at="2016-01-15T21:23:27Z" finished-at="2016-01-15T21:23:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRunmode -->
+        <test-method status="PASS" signature="bookwizardLogin(java.util.Hashtable)[pri:0, instance:com.userprofile.scholastic.test.BookwizardLoginTest@7a5d012c]" name="bookwizardLogin" duration-ms="30623" started-at="2016-01-15T21:23:27Z" data-provider="gTestData" finished-at="2016-01-15T21:23:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Password=pass, Email=satsingh@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login In successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bookwizardLogin -->
+      </class> <!-- com.userprofile.scholastic.test.BookwizardLoginTest -->
+    </test> <!-- BookwizardLoginTest -->
+    <test name="BookwizardRegistrationTest" duration-ms="70" started-at="2016-01-15T15:53:58Z" finished-at="2016-01-15T15:53:58Z">
+      <class name="com.userprofile.scholastic.test.BookwizardRegistrationTest">
+        <test-method status="SKIP" signature="checkRunmode()[pri:0, instance:com.userprofile.scholastic.test.BookwizardRegistrationTest@5d624da6]" name="checkRunmode" is-config="true" duration-ms="0" started-at="2016-01-15T21:23:58Z" finished-at="2016-01-15T21:23:58Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as Runmode is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as Runmode is NO
+	at com.userprofile.scholastic.test.BookwizardRegistrationTest.checkRunmode(BookwizardRegistrationTest.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:656)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRunmode -->
+        <test-method status="SKIP" signature="teacherRegistration(java.util.Hashtable)[pri:0, instance:com.userprofile.scholastic.test.BookwizardRegistrationTest@5d624da6]" name="teacherRegistration" duration-ms="0" started-at="2016-01-15T21:23:58Z" data-provider="gTestData" finished-at="2016-01-15T21:23:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=hforst@india.com, firstName=Harry, pass=pass, lasName=Frost}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teacherRegistration -->
+      </class> <!-- com.userprofile.scholastic.test.BookwizardRegistrationTest -->
+    </test> <!-- BookwizardRegistrationTest -->
+    <test name="CommunityLoginTest" duration-ms="48114" started-at="2016-01-15T15:53:58Z" finished-at="2016-01-15T15:54:46Z">
+      <class name="com.userprofile.scholastic.test.CommunityLoginTest">
+        <test-method status="PASS" signature="checkRunmode()[pri:0, instance:com.userprofile.scholastic.test.CommunityLoginTest@77b52d12]" name="checkRunmode" is-config="true" duration-ms="20" started-at="2016-01-15T21:23:58Z" finished-at="2016-01-15T21:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRunmode -->
+        <test-method status="PASS" signature="checkValidUser(java.util.Hashtable)[pri:0, instance:com.userprofile.scholastic.test.CommunityLoginTest@77b52d12]" name="checkValidUser" duration-ms="48049" started-at="2016-01-15T21:23:58Z" data-provider="gTestData" finished-at="2016-01-15T21:24:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=pass, uName=bikingchasing710}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Popup for Stacks >Sign in now.]]>
+            </line>
+            <line>
+              <![CDATA[Login In successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkValidUser -->
+      </class> <!-- com.userprofile.scholastic.test.CommunityLoginTest -->
+    </test> <!-- CommunityLoginTest -->
+    <test name="InfinityRingLoginTest" duration-ms="30101" started-at="2016-01-15T15:54:46Z" finished-at="2016-01-15T15:55:16Z">
+      <class name="com.userprofile.scholastic.test.InfinityRingLoginTest">
+        <test-method status="PASS" signature="checkRunmode()[pri:0, instance:com.userprofile.scholastic.test.InfinityRingLoginTest@90f6bfd]" name="checkRunmode" is-config="true" duration-ms="23" started-at="2016-01-15T21:24:46Z" finished-at="2016-01-15T21:24:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRunmode -->
+        <test-method status="PASS" signature="logintoApp(java.util.Hashtable)[pri:0, instance:com.userprofile.scholastic.test.InfinityRingLoginTest@90f6bfd]" name="logintoApp" duration-ms="30033" started-at="2016-01-15T21:24:46Z" data-provider="gTestData" finished-at="2016-01-15T21:25:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=pass, userName=bikingchasing710}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login In successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logintoApp -->
+      </class> <!-- com.userprofile.scholastic.test.InfinityRingLoginTest -->
+    </test> <!-- InfinityRingLoginTest -->
+    <test name="InfinityRingRegistrationtest" duration-ms="115223" started-at="2016-01-15T15:55:16Z" finished-at="2016-01-15T15:57:12Z">
+      <class name="com.userprofile.scholastic.test.InfinityRingRegistrationtest">
+        <test-method status="PASS" signature="checkRunmode()[pri:0, instance:com.userprofile.scholastic.test.InfinityRingRegistrationtest@3a03464]" name="checkRunmode" is-config="true" duration-ms="20" started-at="2016-01-15T21:25:16Z" finished-at="2016-01-15T21:25:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRunmode -->
+        <test-method status="PASS" signature="clickSignin(java.util.Hashtable)[pri:0, instance:com.userprofile.scholastic.test.InfinityRingRegistrationtest@3a03464]" name="clickSignin" duration-ms="115171" started-at="2016-01-15T21:25:16Z" data-provider="gTestData" finished-at="2016-01-15T21:27:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=abc@india.com, pass=password}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Registration Screen is present]]>
+            </line>
+            <line>
+              <![CDATA[Login In successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickSignin -->
+      </class> <!-- com.userprofile.scholastic.test.InfinityRingRegistrationtest -->
+    </test> <!-- InfinityRingRegistrationtest -->
+    <test name="Test_Read1000" duration-ms="26997" started-at="2016-01-15T15:57:12Z" finished-at="2016-01-15T15:57:39Z">
+      <class name="com.userprofile.scholastic.test.Read1000PageTest">
+        <test-method status="PASS" signature="checkRunmode()[pri:0, instance:com.userprofile.scholastic.test.Read1000PageTest@6df97b55]" name="checkRunmode" is-config="true" duration-ms="17" started-at="2016-01-15T21:27:12Z" finished-at="2016-01-15T21:27:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRunmode -->
+        <test-method status="PASS" signature="parentRegistration(java.util.Hashtable)[pri:0, instance:com.userprofile.scholastic.test.Read1000PageTest@6df97b55]" name="parentRegistration" duration-ms="26957" started-at="2016-01-15T21:27:12Z" data-provider="gTestData" finished-at="2016-01-15T21:27:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{doB=12/26/1980}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Parent Page is dispalyed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- parentRegistration -->
+      </class> <!-- com.userprofile.scholastic.test.Read1000PageTest -->
+    </test> <!-- Test_Read1000 -->
+  </suite> <!-- Suite -->
+</testng-results>

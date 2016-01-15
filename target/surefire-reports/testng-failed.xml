@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="BookwizardLoginTest">
+    <classes>
+      <class name="com.userprofile.scholastic.test.BookwizardLoginTest"/>
+    </classes>
+  </test> <!-- BookwizardLoginTest -->
+  <test name="BookwizardRegistrationTest">
+    <classes>
+      <class name="com.userprofile.scholastic.test.BookwizardRegistrationTest"/>
+    </classes>
+  </test> <!-- BookwizardRegistrationTest -->
+  <test name="CommunityLoginTest">
+    <classes>
+      <class name="com.userprofile.scholastic.test.CommunityLoginTest"/>
+    </classes>
+  </test> <!-- CommunityLoginTest -->
+  <test name="InfinityRingLoginTest">
+    <classes>
+      <class name="com.userprofile.scholastic.test.InfinityRingLoginTest"/>
+    </classes>
+  </test> <!-- InfinityRingLoginTest -->
+  <test name="InfinityRingRegistrationtest">
+    <classes>
+      <class name="com.userprofile.scholastic.test.InfinityRingRegistrationtest"/>
+    </classes>
+  </test> <!-- InfinityRingRegistrationtest -->
+  <test name="Test_Read1000">
+    <classes>
+      <class name="com.userprofile.scholastic.test.Read1000PageTest"/>
+    </classes>
+  </test> <!-- Test_Read1000 -->
+  <test name="BookwizardRegistrationTest(failed)">
+    <classes>
+      <class name="com.userprofile.scholastic.test.Read1000PageTest">
+        <methods>
+          <include name="checkRunmode"/>
+        </methods>
+      </class> <!-- com.userprofile.scholastic.test.Read1000PageTest -->
+      <class name="com.userprofile.scholastic.test.InfinityRingRegistrationtest">
+        <methods>
+          <include name="checkRunmode"/>
+        </methods>
+      </class> <!-- com.userprofile.scholastic.test.InfinityRingRegistrationtest -->
+      <class name="com.userprofile.scholastic.test.BookwizardLoginTest">
+        <methods>
+          <include name="checkRunmode"/>
+        </methods>
+      </class> <!-- com.userprofile.scholastic.test.BookwizardLoginTest -->
+      <class name="com.userprofile.scholastic.test.BookwizardRegistrationTest">
+        <methods>
+          <include name="teacherRegistration"/>
+          <include name="checkRunmode"/>
+        </methods>
+      </class> <!-- com.userprofile.scholastic.test.BookwizardRegistrationTest -->
+      <class name="com.userprofile.scholastic.test.CommunityLoginTest">
+        <methods>
+          <include name="checkRunmode"/>
+        </methods>
+      </class> <!-- com.userprofile.scholastic.test.CommunityLoginTest -->
+      <class name="com.userprofile.scholastic.test.InfinityRingLoginTest">
+        <methods>
+          <include name="checkRunmode"/>
+        </methods>
+      </class> <!-- com.userprofile.scholastic.test.InfinityRingLoginTest -->
+    </classes>
+  </test> <!-- BookwizardRegistrationTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

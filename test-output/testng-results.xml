@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="10" failed="1" total="12" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Login In successful]]>
+    </line>
+    <line>
+      <![CDATA[Login not successful]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="87893" started-at="2016-01-12T09:59:28Z" finished-at="2016-01-12T10:00:56Z">
+    <groups>
+    </groups>
+    <test name="Test_Read1000" duration-ms="822" started-at="2016-01-12T09:59:28Z" finished-at="2016-01-12T09:59:29Z">
+      <class name="com.userprofile.scholastic.test.Read1000PageTest">
+        <test-method status="SKIP" signature="checkRunmode()[pri:0, instance:com.userprofile.scholastic.test.Read1000PageTest@1d251891]" name="checkRunmode" is-config="true" duration-ms="0" started-at="2016-01-12T15:29:28Z" finished-at="2016-01-12T15:29:28Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as Runmode is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as Runmode is NO
+	at com.userprofile.scholastic.test.Read1000PageTest.checkRunmode(Read1000PageTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:647)
+	at org.testng.TestRunner.run(TestRunner.java:615)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRunmode -->
+        <test-method status="SKIP" signature="parentRegistration(java.util.Hashtable)[pri:0, instance:com.userprofile.scholastic.test.Read1000PageTest@1d251891]" name="parentRegistration" duration-ms="10" started-at="2016-01-12T15:29:29Z" data-provider="gTestData" finished-at="2016-01-12T15:29:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{doB=12/26/1981}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parentRegistration -->
+        <test-method status="SKIP" signature="parentRegistration(java.util.Hashtable)[pri:0, instance:com.userprofile.scholastic.test.Read1000PageTest@1d251891]" name="parentRegistration" duration-ms="0" started-at="2016-01-12T15:29:29Z" data-provider="gTestData" finished-at="2016-01-12T15:29:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{doB=12/26/1980}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parentRegistration -->
+        <test-method status="SKIP" signature="parentRegistration(java.util.Hashtable)[pri:0, instance:com.userprofile.scholastic.test.Read1000PageTest@1d251891]" name="parentRegistration" duration-ms="0" started-at="2016-01-12T15:29:29Z" data-provider="gTestData" finished-at="2016-01-12T15:29:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{doB=12/26/1982}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parentRegistration -->
+      </class> <!-- com.userprofile.scholastic.test.Read1000PageTest -->
+    </test> <!-- Test_Read1000 -->
+    <test name="BookwizardLoginTest" duration-ms="86657" started-at="2016-01-12T09:59:29Z" finished-at="2016-01-12T10:00:56Z">
+      <class name="com.userprofile.scholastic.test.BookwizardLoginTest">
+        <test-method status="PASS" signature="checkRunmode()[pri:0, instance:com.userprofile.scholastic.test.BookwizardLoginTest@4411d970]" name="checkRunmode" is-config="true" duration-ms="39" started-at="2016-01-12T15:29:29Z" finished-at="2016-01-12T15:29:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRunmode -->
+        <test-method status="PASS" signature="bookwizardLogin(java.util.Hashtable)[pri:0, instance:com.userprofile.scholastic.test.BookwizardLoginTest@4411d970]" name="bookwizardLogin" duration-ms="36971" started-at="2016-01-12T15:29:29Z" data-provider="gTestData" finished-at="2016-01-12T15:30:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Password=pass, Email=satsingh@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login In successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bookwizardLogin -->
+        <test-method status="FAIL" signature="bookwizardLogin(java.util.Hashtable)[pri:0, instance:com.userprofile.scholastic.test.BookwizardLoginTest@4411d970]" name="bookwizardLogin" duration-ms="49586" started-at="2016-01-12T15:30:06Z" data-provider="gTestData" finished-at="2016-01-12T15:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Password=pass, Email=abcd@india.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:288)
+	at org.testng.Assert.assertEquals(Assert.java:298)
+	at com.userprofile.scholastic.test.BookwizardLoginTest.bookwizardLogin(BookwizardLoginTest.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Login not successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bookwizardLogin -->
+      </class> <!-- com.userprofile.scholastic.test.BookwizardLoginTest -->
+    </test> <!-- BookwizardLoginTest -->
+    <test name="CommunityLoginTest" duration-ms="80" started-at="2016-01-12T10:00:56Z" finished-at="2016-01-12T10:00:56Z">
+      <class name="com.userprofile.scholastic.test.CommunityLoginTest">
+        <test-method status="SKIP" signature="checkRunmode()[pri:0, instance:com.userprofile.scholastic.test.CommunityLoginTest@6108b2d7]" name="checkRunmode" is-config="true" duration-ms="0" started-at="2016-01-12T15:30:56Z" finished-at="2016-01-12T15:30:56Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as Runmode is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as Runmode is NO
+	at com.userprofile.scholastic.test.CommunityLoginTest.checkRunmode(CommunityLoginTest.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:647)
+	at org.testng.TestRunner.run(TestRunner.java:615)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRunmode -->
+        <test-method status="SKIP" signature="checkValidUser(java.util.Hashtable)[pri:0, instance:com.userprofile.scholastic.test.CommunityLoginTest@6108b2d7]" name="checkValidUser" duration-ms="0" started-at="2016-01-12T15:30:56Z" data-provider="gTestData" finished-at="2016-01-12T15:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=pass, uName=test}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkValidUser -->
+        <test-method status="SKIP" signature="checkValidUser(java.util.Hashtable)[pri:0, instance:com.userprofile.scholastic.test.CommunityLoginTest@6108b2d7]" name="checkValidUser" duration-ms="0" started-at="2016-01-12T15:30:56Z" data-provider="gTestData" finished-at="2016-01-12T15:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=pass, uName=bikingchasing710}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkValidUser -->
+      </class> <!-- com.userprofile.scholastic.test.CommunityLoginTest -->
+    </test> <!-- CommunityLoginTest -->
+    <test name="InfinityRingLoginTest" duration-ms="108" started-at="2016-01-12T10:00:56Z" finished-at="2016-01-12T10:00:56Z">
+      <class name="com.userprofile.scholastic.test.InfinityRingLoginTest">
+        <test-method status="SKIP" signature="checkRunmode()[pri:0, instance:com.userprofile.scholastic.test.InfinityRingLoginTest@1a407d53]" name="checkRunmode" is-config="true" duration-ms="0" started-at="2016-01-12T15:30:56Z" finished-at="2016-01-12T15:30:56Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as Runmode is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as Runmode is NO
+	at com.userprofile.scholastic.test.InfinityRingLoginTest.checkRunmode(InfinityRingLoginTest.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:647)
+	at org.testng.TestRunner.run(TestRunner.java:615)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRunmode -->
+        <test-method status="SKIP" signature="logintoApp(java.util.Hashtable)[pri:0, instance:com.userprofile.scholastic.test.InfinityRingLoginTest@1a407d53]" name="logintoApp" duration-ms="4" started-at="2016-01-12T15:30:56Z" data-provider="gTestData" finished-at="2016-01-12T15:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=pass, userName=bikingarriving1599}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoApp -->
+        <test-method status="SKIP" signature="logintoApp(java.util.Hashtable)[pri:0, instance:com.userprofile.scholastic.test.InfinityRingLoginTest@1a407d53]" name="logintoApp" duration-ms="4" started-at="2016-01-12T15:30:56Z" data-provider="gTestData" finished-at="2016-01-12T15:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=pass, userName=bikingchasing710}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoApp -->
+      </class> <!-- com.userprofile.scholastic.test.InfinityRingLoginTest -->
+    </test> <!-- InfinityRingLoginTest -->
+    <test name="InfinityRingRegistrationtest" duration-ms="68" started-at="2016-01-12T10:00:56Z" finished-at="2016-01-12T10:00:56Z">
+      <class name="com.userprofile.scholastic.test.InfinityRingRegistrationtest">
+        <test-method status="SKIP" signature="checkRunmode()[pri:0, instance:com.userprofile.scholastic.test.InfinityRingRegistrationtest@3fb6a447]" name="checkRunmode" is-config="true" duration-ms="0" started-at="2016-01-12T15:30:56Z" finished-at="2016-01-12T15:30:56Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as Runmode is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as Runmode is NO
+	at com.userprofile.scholastic.test.InfinityRingRegistrationtest.checkRunmode(InfinityRingRegistrationtest.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:647)
+	at org.testng.TestRunner.run(TestRunner.java:615)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRunmode -->
+        <test-method status="SKIP" signature="clickSignin(java.util.Hashtable)[pri:0, instance:com.userprofile.scholastic.test.InfinityRingRegistrationtest@3fb6a447]" name="clickSignin" duration-ms="0" started-at="2016-01-12T15:30:56Z" data-provider="gTestData" finished-at="2016-01-12T15:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=abcsss@india.com, pass=password}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSignin -->
+        <test-method status="SKIP" signature="clickSignin(java.util.Hashtable)[pri:0, instance:com.userprofile.scholastic.test.InfinityRingRegistrationtest@3fb6a447]" name="clickSignin" duration-ms="0" started-at="2016-01-12T15:30:56Z" data-provider="gTestData" finished-at="2016-01-12T15:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=abc@india.com, pass=password}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSignin -->
+      </class> <!-- com.userprofile.scholastic.test.InfinityRingRegistrationtest -->
+    </test> <!-- InfinityRingRegistrationtest -->
+    <test name="BookwizardRegistrationTest" duration-ms="72" started-at="2016-01-12T10:00:56Z" finished-at="2016-01-12T10:00:56Z">
+      <class name="com.userprofile.scholastic.test.BookwizardRegistrationTest">
+        <test-method status="SKIP" signature="checkRunmode()[pri:0, instance:com.userprofile.scholastic.test.BookwizardRegistrationTest@42d3bd8b]" name="checkRunmode" is-config="true" duration-ms="0" started-at="2016-01-12T15:30:56Z" finished-at="2016-01-12T15:30:56Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as Runmode is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as Runmode is NO
+	at com.userprofile.scholastic.test.BookwizardRegistrationTest.checkRunmode(BookwizardRegistrationTest.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:647)
+	at org.testng.TestRunner.run(TestRunner.java:615)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRunmode -->
+        <test-method status="SKIP" signature="teacherRegistration(java.util.Hashtable)[pri:0, instance:com.userprofile.scholastic.test.BookwizardRegistrationTest@42d3bd8b]" name="teacherRegistration" duration-ms="0" started-at="2016-01-12T15:30:56Z" data-provider="gTestData" finished-at="2016-01-12T15:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=hforst@india.com, firstName=Harry, pass=pass, lasName=Frost}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teacherRegistration -->
+      </class> <!-- com.userprofile.scholastic.test.BookwizardRegistrationTest -->
+    </test> <!-- BookwizardRegistrationTest -->
+  </suite> <!-- Suite -->
+</testng-results>

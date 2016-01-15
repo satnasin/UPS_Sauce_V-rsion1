@@ -1,0 +1,14 @@
+com\userprofile\scholastic\pages\InfinityRingHomePage.class
+com\userprofile\scholastic\pages\BookwizardRegistrationPage.class
+com\userprofile\scholastic\base\RunControl.class
+com\userprofile\scholastic\test\Read1000PageTest.class
+com\userprofile\scholastic\test\InfinityRingLoginTest.class
+com\userprofile\scholastic\test\InfinityRingRegistrationtest.class
+com\userprofile\scholastic\pages\CommunityLoginPage.class
+com\userprofile\scholastic\base\BaseSetup.class
+com\userprofile\scholastic\pages\Read1000Page.class
+com\userprofile\scholastic\base\Xls_Reader.class
+com\userprofile\scholastic\test\CommunityLoginTest.class
+com\userprofile\scholastic\test\BookwizardLoginTest.class
+com\userprofile\scholastic\test\BookwizardRegistrationTest.class
+com\userprofile\scholastic\pages\BookwizardLoginPage.class

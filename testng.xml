@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test name="BookwizardLoginTest">
+		<classes>
+			<class name="com.userprofile.scholastic.test.BookwizardLoginTest" />
+		</classes>
+	</test>
+	<test name="BookwizardRegistrationTest">
+		<classes>
+			<class name="com.userprofile.scholastic.test.BookwizardRegistrationTest" />
+		</classes>
+	</test>
+
+	<test name="CommunityLoginTest">
+		<classes>
+			<class name="com.userprofile.scholastic.test.CommunityLoginTest" />
+		</classes>
+	</test>
+
+	<test name="InfinityRingLoginTest">
+		<classes>
+			<class name="com.userprofile.scholastic.test.InfinityRingLoginTest" />
+		</classes>
+	</test>
+
+	<test name="InfinityRingRegistrationtest">
+		<classes>
+			<class name="com.userprofile.scholastic.test.InfinityRingRegistrationtest" />
+		</classes>
+	</test>
+
+
+	<test name="Test_Read1000">
+		<classes>
+			<class name="com.userprofile.scholastic.test.Read1000PageTest" />
+		</classes>
+	</test>
+
+</suite> 

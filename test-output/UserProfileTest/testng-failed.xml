@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [UserProfileTest]">
+  <test name="Test for UPS(failed)">
+    <classes>
+      <class name="com.userprofile.scholastic.test.InfinityRingRegistrationtest">
+        <methods>
+          <include name="clickSignin"/>
+        </methods>
+      </class> <!-- com.userprofile.scholastic.test.InfinityRingRegistrationtest -->
+      <class name="com.userprofile.scholastic.test.BookwizardLoginTest">
+        <methods>
+          <include name="bookwizardLogin"/>
+          <include name="checkRunmode"/>
+        </methods>
+      </class> <!-- com.userprofile.scholastic.test.BookwizardLoginTest -->
+      <class name="com.userprofile.scholastic.test.BookwizardRegistrationTest">
+        <methods>
+          <include name="teacherRegistration"/>
+          <include name="checkRunmode"/>
+        </methods>
+      </class> <!-- com.userprofile.scholastic.test.BookwizardRegistrationTest -->
+      <class name="com.userprofile.scholastic.test.Read1000PageTest">
+        <methods>
+          <include name="parentRegistration"/>
+        </methods>
+      </class> <!-- com.userprofile.scholastic.test.Read1000PageTest -->
+      <class name="com.userprofile.scholastic.test.CommunityLoginTest">
+        <methods>
+          <include name="checkValidUser"/>
+        </methods>
+      </class> <!-- com.userprofile.scholastic.test.CommunityLoginTest -->
+      <class name="com.userprofile.scholastic.test.InfinityRingLoginTest">
+        <methods>
+          <include name="logintoApp"/>
+        </methods>
+      </class> <!-- com.userprofile.scholastic.test.InfinityRingLoginTest -->
+    </classes>
+  </test> <!-- Test for UPS(failed) -->
+</suite> <!-- Failed suite [UserProfileTest] -->
